@@ -1,0 +1,113 @@
+
+        * {
+            padding: 5;
+            margin: 5;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif;
+            font-size: 400;
+        }
+
+        .headertit {
+            text-align: center;
+
+        }
+
+        .logoimg {
+            float: left;
+            margin-left: 5%;
+        }
+
+        .nav {
+            padding-top: 3%;
+            height: 3%;
+            justify-content: space-around;
+          
+        }
+
+        .nav a {
+            margin-left: 10%;
+            padding-right: 5%;
+            text-decoration: none;
+            font-size: 25px;
+            color: black;
+            
+            
+        }
+
+        .content {
+            margin-top: 5%;
+            margin-left: 5%;
+            margin-right: 25%;
+        }
+
+        .content h3 {
+            margin-top: 3%;
+            text-align: center;
+        }
+
+        .content p {
+            text-align: justify;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        table {
+            
+            width: 100%;
+            
+            
+        }
+
+        th,
+        td {
+            padding: 1rem;
+            border: 1px, solid, black;
+            
+        }
+
+        .aside-anexos {
+            margin-top: 3%;
+            float: right;
+            width: 15%;
+            height: 50px;
+            text-align: center;
+            border-bottom: 0ch;
+            border-right: 0ch;
+            margin-right: 3%;
+        }
+
+        .order-list a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .footer{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+
+        .footer p{
+            font-size: 13px;
+        }
+
+        /*Pagina Css*/
+       .content-css h3{
+        text-align: center;
+       }
+
+       .content-css{
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 25%;
+       }
