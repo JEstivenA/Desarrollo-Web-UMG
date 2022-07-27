@@ -6,100 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5</title>
-    <style>
-        * {
-            padding: 5;
-            margin: 5;
-            box-sizing: border-box;
-        }
 
-        body {
-            font-family: sans-serif;
-            font-size: 400;
-        }
-
-        .headertit {
-            text-align: center;
-
-        }
-
-        .logoimg {
-            float: left;
-            margin-left: 5%;
-        }
-
-        .nav {
-            padding-top: 3%;
-            height: 3%;
-        }
-
-        .nav a {
-            margin-left: 5%;
-            text-decoration: none;
-            font-size: 25px;
-            color: black;
-        }
-
-        .content {
-            margin-top: 5%;
-            margin-left: 5%;
-            margin-right: 25%;
-        }
-
-        .content h3 {
-            margin-top: 3%;
-            text-align: center;
-        }
-
-        .content p {
-            text-align: justify;
-        }
-
-        .content-versions table,
-        th,
-        td {
-            border: 1px, solid, black;
-        }
-
-        .content-versions table {
-            border-collapse: collapse;
-            width: 500px;
-            text-align: center;
-        }
-
-        .content-versions th,
-        td {
-            padding: 10px;
-        }
-
-        .aside-anexos {
-            margin-top: 3%;
-            float: right;
-            width: 15%;
-            height: 50px;
-            text-align: center;
-            border-bottom: 0ch;
-            border-right: 0ch;
-            margin-right: 3%;
-        }
-
-        .order-list a {
-            text-decoration: none;
-            color: black;
-        }
-
-        .footer{
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            padding-left: 25px;
-            padding-right: 25px;
-        }
-
-        .footer p{
-            font-size: 13px;
-        }
-    </style>
+    <link rel="stylesheet" href="Css/Estilos.css">
+    <link rel="icon" href="imagenes/pestana.png">
 
 </head>
 
@@ -116,9 +25,12 @@
         </section>
 
         <nav class="nav">
+            <a href="index.html">Inicio</a>
             <a target="_blank" href="https://www.w3.org/wiki/HTML_/_Elementos">Elementos</a>
             <a target="_blank"
                 href="https://es.wikipedia.org/wiki/Atributo_HTML#:~:text=Los%20atributos%20de%20HTML%20son,tipo%20de%20elemento%20de%20HTML.">Atributos</a>
+            
+            <a target="_blank" href="CSS.html">CSS</a>
         </nav>
     </header>
     <aside class="aside-anexos">
@@ -185,7 +97,7 @@
                 </p>
             </article>
 
-            <article class="content-versions">
+            <section class="content-versions">
                 <h3>Versiones De HTML</h3>
 
                 <table>
@@ -241,7 +153,7 @@
                         </td>
                     </tr>
                 </table>
-            </article>
+            </section>
         </section>
     </main>
 
