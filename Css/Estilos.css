@@ -73,6 +73,10 @@
             
         }
 
+        tr:hover {
+            background-color: greenyellow;
+        }
+
         .aside-anexos {
             margin-top: 3%;
             float: right;
@@ -110,4 +114,10 @@
         margin-top: 5%;
         margin-left: 5%;
         margin-right: 25%;
+       }
+
+       /*Tablas rayadas*/
+
+       tr:nth-child(even){
+        background-color: rgb(210, 210, 210);
        }
