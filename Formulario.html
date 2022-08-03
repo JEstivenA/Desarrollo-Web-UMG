@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <link rel="stylesheet" href="Css/Estilos.css">
+    <link rel="icon" href="imagenes/pestana.png">
+
+
+</head>
+<body>
+
+    <header class="header">
+        <section class="headertit">
+            <section class="logo">
+                <img class="logoimg" src="./imagenes/html5-logo-html-logo-0.png" alt="" width="75" height="75">
+            </section>
+            <section>
+                <h2>DESARROLLO WEB</h2>
+                <h2>INSTRODUCCION A HTML5</h2>
+            </section>
+        </section>
+
+        <nav class="nav">
+            <a href="index.html">Inicio</a>
+            <a target="_blank" href="https://www.w3.org/wiki/HTML_/_Elementos">Elementos</a>
+            <a target="_blank"
+                href="https://es.wikipedia.org/wiki/Atributo_HTML#:~:text=Los%20atributos%20de%20HTML%20son,tipo%20de%20elemento%20de%20HTML.">Atributos</a>
+            
+            <a target="_blank" href="CSS.html">CSS</a>
+            <a target="_blank" href="Formulario.html">Formulario</a>
+        </nav>
+    </header>
+
+    <form action="" class="formulario">
+
+        <h2>Datos Personales</h2>
+
+        <input type="number" name="id" id="id" placeholder="Documento De Identificacion">
+
+        <input type="text" name="nombreCom" id="nombreCom" placeholder="Nombre Completo">
+
+        <input type="text" name="direccion" id="direccion" placeholder="Direccion">
+
+        <input type="text" name="pais" id="pais" placeholder="País">
+
+        <input type="email" name="correo" id="correo" placeholder="Correo Electronico">
+
+        <input type="text" name="observacion" id="observacion" placeholder="Observaciones" maxlength="600">
+
+        <h2>Datos Laborales</h2>
+
+        <input type="text" name="emrpesa" id="empresa" placeholder="Empresa">
+        <input type="number" name="sueldo" id="sueldo" placeholder="Sueldo Ordinario">
+        <input type="numver" name="bono" id="bono" placeholder="Bonificacion">
+        <input type="text" name="otrasBoni" id="otrasboni" placeholder="Otras Bonificaciones">
+
+        <input type="submit" value="Enviar Datos">
+
+
+    </form>
+    
+</body>
+</html>
