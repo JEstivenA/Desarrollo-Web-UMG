@@ -20,7 +20,7 @@
             </section>
             <section>
                 <h2>DESARROLLO WEB</h2>
-                <h2>INSTRODUCCION A HTML5</h2>
+                <h2>Formularios</h2>
             </section>
         </section>
 
@@ -37,28 +37,34 @@
 
     <form action="" class="formulario">
 
-        <h2>Datos Personales</h2>
+        <div class="personales">
+            <h2>Datos Personales</h2>
 
-        <input type="number" name="id" id="id" placeholder="Documento De Identificacion">
+            <input class="controls" type="number" name="id" id="id" placeholder="Documento De Identificacion">
 
-        <input type="text" name="nombreCom" id="nombreCom" placeholder="Nombre Completo">
+            <input class="controls" type="text" name="nombreCom" id="nombreCom" placeholder="Nombre Completo">
 
-        <input type="text" name="direccion" id="direccion" placeholder="Direccion">
+            <input class="controls" type="text" name="direccion" id="direccion" placeholder="Direccion">
 
-        <input type="text" name="pais" id="pais" placeholder="País">
+            <input class="controls" type="text" name="pais" id="pais" placeholder="País">
 
-        <input type="email" name="correo" id="correo" placeholder="Correo Electronico">
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Correo Electronico">
 
-        <input type="text" name="observacion" id="observacion" placeholder="Observaciones" maxlength="600">
+            <input class="controls" type="text" name="observacion" id="observacion" placeholder="Observaciones" maxlength="600">
+        </div>
 
-        <h2>Datos Laborales</h2>
+       <div class="laborales">
 
-        <input type="text" name="emrpesa" id="empresa" placeholder="Empresa">
-        <input type="number" name="sueldo" id="sueldo" placeholder="Sueldo Ordinario">
-        <input type="numver" name="bono" id="bono" placeholder="Bonificacion">
-        <input type="text" name="otrasBoni" id="otrasboni" placeholder="Otras Bonificaciones">
+            <h2>Datos Laborales</h2>
 
-        <input type="submit" value="Enviar Datos">
+            <input class="controls" type="text" name="emrpesa" id="empresa" placeholder="Empresa">
+            <input class="controls" type="number" name="sueldo" id="sueldo" placeholder="Sueldo Ordinario">
+            <input class="controls" type="numver" name="bono" id="bono" placeholder="Bonificacion">
+            <input class="controls" type="text" name="otrasBoni" id="otrasboni" placeholder="Otras Bonificaciones">
+
+       </div>
+
+       <input class="botons" type="submit" value="Enviar Datos">
 
 
     </form>
